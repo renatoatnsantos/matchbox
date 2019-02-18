@@ -1,0 +1,72 @@
+$body-bg : #453995;
+
+body {
+  font-family: 'Montserrat', sans-serif!important;
+  background: $body-bg!important;
+}
+
+$percent-p-bg : #df595d;
+$percent-p-text : #fff;
+
+.percent {
+  background: $percent-p-text;
+  border-radius : 10px;
+  overflow: hidden;
+  span {
+    color: #909090;
+    font-weight: 700;
+    width: 50%;
+    float: left;
+    .spercent {
+      font-size: 24pt;
+      width: 100%;
+    }
+    p{
+      background: $percent-p-bg;
+      color: $percent-p-text;
+    }
+  }
+}
+
+.position-percent {
+  position: absolute;
+  width: 100%;
+  left: 110%;
+  top: 0;
+}
+
+.container-percent {
+  padding: 20px 0px;
+  background: $percent-p-text;
+}
+
+span.title {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+p.description {
+  font-size: 12px;
+  color: #909090;
+}
+
+.circle-img > img {
+  border-radius: 50%;
+  border: 5px solid #6bbef1;
+}
+
+span.circle-number {
+  position: absolute;
+  right: 0px;
+  bottom: 2px;
+  border-radius: 50%;
+  height: 23px;
+  width: 23px;
+  background: #fff;
+  text-align: center;
+  border: 1px solid #000;
+}
+
+.text-center.percent > span:nth-child(1) {
+  border-right: 1px solid #000;
+}
