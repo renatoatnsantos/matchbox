@@ -18,6 +18,12 @@ const gulp = require('gulp')
     browserSync = require('browser-sync').create()
 
 
+gulp.task('optimize-image' , ()=>{
+        gulp.src(['./src/assets/images/*'])
+            .pipe(imagemin())
+            .pipe(gulp.dest('./dist/assets/images'))
+})
+
 gulp.task('replace-html', function() {
     gulp.src(['./src/*.html'])
         .pipe(htmlReplace({
@@ -53,7 +59,7 @@ gulp.task('watching' , ()=>{
     gulp.watch(['./src/assets/css/scss/*.scss'] , gulp.series('compile-scss'))
 })
 
-gulp.task('copy-files' , gulp.series(gulp.parallel('replace-html' , 'compile-js' , 'compile-scss')), ()=>{
+gulp.task('copy-files' , gulp.series(gulp.parallel('replace-html' , 'compile-js' , 'compile-scss' , 'optimize-image')), ()=>{
     return gulp.src(['./src/*.html'])
         .pipe(gulp.dest(['dist']))
 })

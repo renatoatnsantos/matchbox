@@ -2,7 +2,7 @@ $body-bg : #453995;
 
 body {
   font-family: 'Montserrat', sans-serif!important;
-  background: $body-bg!important;
+  background: url('../images/bg.jpg');
 }
 
 $percent-p-bg : #df595d;
@@ -31,8 +31,10 @@ $percent-p-text : #fff;
 .position-percent {
   position: absolute;
   width: 100%;
-  left: 110%;
+  left: 100%;
   top: 0;
+  padding: 0 30px;
+  background: url(../images/Shape.png) 7% no-repeat;
 }
 
 .container-percent {
@@ -57,16 +59,30 @@ p.description {
 
 span.circle-number {
   position: absolute;
-  right: 0px;
+  right: 0;
   bottom: 2px;
   border-radius: 50%;
   height: 23px;
   width: 23px;
   background: #fff;
   text-align: center;
-  border: 1px solid #000;
+  border: 1px solid #707070;
+  font-weight: 700;
+  color: #707070;
 }
 
 .text-center.percent > span:nth-child(1) {
   border-right: 1px solid #000;
+}
+
+.ranking{
+  background: #fff;
+  padding: 2px 0;
+  margin: 16px 0;
+}
+
+.ranking > h3 {
+  letter-spacing: -1.9px;
+  display: table;
+  margin: 0 auto;
 }

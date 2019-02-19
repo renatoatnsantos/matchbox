@@ -18,10 +18,17 @@
 
 <script type="text/x-template" id="page-main">
     <div class="container">
-        <h1 class="text-center">Gulp automatizador </h1>
-        <div class="col-md-4 offset-md-4">
+        <div class="col-md-4 offset-md-4 px-0">
+            <div class="row">
+                <div class="col">
+                    <img src="">
+                </div>
+            </div>
+            <div class="row ranking">
+                <h3><strong>ranking</strong></h3>
+            </div>
             <div v-for="(list , index ) of jsonData">
-                <div class="row container-percent">
+                <div class="row container-percent" @mouseleave="hoverFunc()">
                     <div class="col-md-3 circle-img">
                         <img :src="list.picture">
                         <span class="circle-number">{{index}}</span>
@@ -83,6 +90,9 @@
                 pos = new Intl.NumberFormat().format(pos);
                 pos = parseFloat(pos).toFixed(0);
                 return pos;
+            },
+            hoverFunc(){
+
             }
         },
     })
