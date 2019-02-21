@@ -3,6 +3,16 @@
   <component name="ChangeListManager">
     <list default="true" id="5c42bf86-a539-49b9-9b16-74561995098b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/css/all.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/Shape.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/bg.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/images/logo_matchbox.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/assets/js/all.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/gulpfile.js" beforeDir="false" afterPath="$PROJECT_DIR$/gulpfile.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/matchboxbrasil.json" beforeDir="false" afterPath="$PROJECT_DIR$/matchboxbrasil.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -13,45 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="matchboxbrasil.json" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/matchboxbrasil.json">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="170">
+              <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.scss" pinned="false" current-in-tab="false">
+      <file leaf-file-name="main.scss" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/assets/css/scss/main.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="212">
-              <caret line="37" selection-start-line="37" selection-end-line="37" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="all.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/dist/assets/css/all.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-              <folding>
-                <element signature="e#27959#28193#2" expanded="true" />
-                <element signature="e#28606#28759#1" expanded="true" />
-                <element signature="e#28799#29033#1" expanded="true" />
-                <element signature="e#32297#32573#2" expanded="true" />
-                <element signature="e#32998#33151#1" expanded="true" />
-                <element signature="e#33191#33467#1" expanded="true" />
-                <element signature="e#60344#60531#2" expanded="true" />
-                <element signature="e#61057#61193#2" expanded="true" />
-                <element signature="e#61346#61479#2" expanded="true" />
-                <element signature="e#62815#62968#1" expanded="true" />
-                <element signature="e#74856#75086#2" expanded="true" />
-                <element signature="e#75921#76157#2" expanded="true" />
-                <element signature="e#102430#102607#2" expanded="true" />
-                <element signature="e#102653#102830#2" expanded="true" />
-              </folding>
+            <state relative-caret-position="241">
+              <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -59,17 +44,17 @@
       <file leaf-file-name="gulpfile.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="181">
-              <caret line="61" column="115" selection-start-line="61" selection-start-column="115" selection-end-line="61" selection-end-column="115" />
+            <state relative-caret-position="-45">
+              <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/index.html">
+      <file leaf-file-name="matchboxbrasil.json" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/matchboxbrasil.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="617">
-              <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+            <state relative-caret-position="295">
+              <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -84,6 +69,12 @@
         <option value="CSS File" />
       </list>
     </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>span</find>
+      <find>.ima</find>
+    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -102,14 +93,14 @@
         <option value="$PROJECT_DIR$/src/assets/vue/vue.js" />
         <option value="$PROJECT_DIR$/src/assets/axios/axios.js" />
         <option value="$PROJECT_DIR$/src/assets/bootstrap4/bootstrap.css" />
-        <option value="$PROJECT_DIR$/matchboxbrasil.json" />
         <option value="$PROJECT_DIR$/src/assets/css/main.css" />
         <option value="$PROJECT_DIR$/dist/index.html" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
-        <option value="$PROJECT_DIR$/src/assets/css/scss/main.scss" />
+        <option value="$PROJECT_DIR$/matchboxbrasil.json" />
         <option value="$PROJECT_DIR$/src/index.html" />
+        <option value="$PROJECT_DIR$/src/assets/css/scss/main.scss" />
       </list>
     </option>
   </component>
@@ -149,38 +140,20 @@
             <path>
               <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
               <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="css" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
-              <item name="images" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="matchbox" type="b2602c69:ProjectViewProjectNode" />
-              <item name="matchbox" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="assets" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -198,16 +171,16 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\matchbox\public" />
+      <recent name="C:\MAMP\htdocs\matchbox\src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\MAMP\htdocs\matchbox\src\assets\images" />
       <recent name="C:\MAMP\htdocs\matchbox\src\assets\css\scss" />
       <recent name="C:\MAMP\htdocs\matchbox\src\assets\css" />
       <recent name="C:\MAMP\htdocs\matchbox\src\assets\js" />
       <recent name="C:\MAMP\htdocs\matchbox" />
-      <recent name="C:\MAMP\htdocs\matchbox\public" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\MAMP\htdocs\matchbox\public" />
-      <recent name="C:\MAMP\htdocs\matchbox\src" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -241,17 +214,19 @@
       <workItem from="1550328261425" duration="19805000" />
       <workItem from="1550409343183" duration="40001000" />
       <workItem from="1550493931787" duration="34372000" />
-      <workItem from="1550532252113" duration="16460000" />
+      <workItem from="1550532252113" duration="51707000" />
+      <workItem from="1550672766283" duration="10878000" />
+      <workItem from="1550689263529" duration="19715000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="229316000" />
+    <option name="totallyTimeSpent" value="295156000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.16565809" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.21266234" />
@@ -260,7 +235,7 @@
       <window_info anchor="bottom" id="Version Control" order="9" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" x="22" y="260" width="1322" height="217" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.3181818" />
+      <window_info active="true" anchor="bottom" x="22" y="260" width="1322" height="217" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.2775974" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -271,6 +246,27 @@
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Find" order="1" />
     </layout>
+    <layout-to-restore>
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1633888" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info active="true" anchor="bottom" x="22" y="260" width="1322" height="217" id="Terminal" order="11" sideWeight="0.49848714" visible="true" weight="0.2775974" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Database Changes" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5015129" side_tool="true" weight="0.21266234" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -284,13 +280,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/matchboxbrasil.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="28" column="9" lean-forward="true" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -487,13 +476,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/server/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="229">
-          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/dependences/index.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -516,26 +498,10 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/dist/css/main.css" />
-    <entry file="file://$PROJECT_DIR$/src/assets/css/main.css" />
     <entry file="file://$PROJECT_DIR$/dist/assets/css/min.all.css" />
-    <entry file="file://$PROJECT_DIR$/dist/assets/js/all.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dist/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="29" column="18" lean-forward="true" selection-start-line="29" selection-start-column="18" selection-end-line="29" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.MD">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/js/all.js" />
+    <entry file="file://$PROJECT_DIR$/dist/index.html" />
+    <entry file="file://$PROJECT_DIR$/README.MD" />
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -551,9 +517,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/images/Shape.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/dist/assets/images/Shape.png" />
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="199">
@@ -564,54 +528,50 @@
     <entry file="file://$PROJECT_DIR$/matchboxbrasil-teste-front.jpg">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/matchboxbrasil.json">
+    <entry file="file://$PROJECT_DIR$/dist/assets/css/all.css" />
+    <entry file="file://$PROJECT_DIR$/server/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="229">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/assets/css/scss/main.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="212">
-          <caret line="37" selection-start-line="37" selection-end-line="37" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/main.css.map">
+      <provider selected="true" editor-type-id="text-editor" />
+      <provider editor-type-id="sourcemapFileViewerProvider" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/dist/assets/css/all.css">
+    <entry file="file://$PROJECT_DIR$/src/assets/css/main.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
-          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
-          <folding>
-            <element signature="e#27959#28193#2" expanded="true" />
-            <element signature="e#28606#28759#1" expanded="true" />
-            <element signature="e#28799#29033#1" expanded="true" />
-            <element signature="e#32297#32573#2" expanded="true" />
-            <element signature="e#32998#33151#1" expanded="true" />
-            <element signature="e#33191#33467#1" expanded="true" />
-            <element signature="e#60344#60531#2" expanded="true" />
-            <element signature="e#61057#61193#2" expanded="true" />
-            <element signature="e#61346#61479#2" expanded="true" />
-            <element signature="e#62815#62968#1" expanded="true" />
-            <element signature="e#74856#75086#2" expanded="true" />
-            <element signature="e#75921#76157#2" expanded="true" />
-            <element signature="e#102430#102607#2" expanded="true" />
-            <element signature="e#102653#102830#2" expanded="true" />
-          </folding>
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/matchboxbrasil.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="40" column="47" selection-start-line="40" selection-start-column="47" selection-end-line="40" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="181">
-          <caret line="61" column="115" selection-start-line="61" selection-start-column="115" selection-end-line="61" selection-end-column="115" />
+        <state relative-caret-position="-45">
+          <caret line="27" column="35" selection-start-line="27" selection-start-column="35" selection-end-line="27" selection-end-column="35" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="617">
-          <caret line="68" column="13" lean-forward="true" selection-start-line="68" selection-start-column="13" selection-end-line="68" selection-end-column="13" />
+        <state relative-caret-position="170">
+          <caret line="10" column="113" selection-start-line="10" selection-start-column="113" selection-end-line="10" selection-end-column="113" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/assets/css/scss/main.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="241">
+          <caret line="98" column="1" lean-forward="true" selection-start-line="98" selection-start-column="1" selection-end-line="98" selection-end-column="1" />
         </state>
       </provider>
     </entry>

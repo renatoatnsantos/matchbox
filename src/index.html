@@ -8,7 +8,7 @@
     <link rel="stylesheet" href="assets/css/bootstrap4/bootstrap.css" />
     <!-- endbuild -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,800,900" rel="stylesheet">
 </head>
 <body>
 
@@ -25,27 +25,31 @@
                 </div>
             </div>
             <div class="row ranking">
-                <h3><strong>ranking</strong></h3>
+                <h3 class="text-center col h3-adjust">ranking</h3>
             </div>
-            <div v-for="(list , index ) of jsonData">
-                <div class="row container-percent" @mouseleave="hoverFunc()">
-                    <div class="col-md-3 circle-img">
-                        <img :src="list.picture">
-                        <span class="circle-number">{{index}}</span>
-                    </div>
-                    <div class="col-md-9">
-                        <span class="title">{{list.name}}</span>
-                        <p class="description my-0">{{list.description}}</p>
-                        <div class="position-percent">
-                            <div class="text-center percent">
-                                <span class="total px-0">
-                                    <p class="my-0">Gostam</p>
-                                    <span class="spercent"><strong>{{positive(list)}} %</strong></span>
-                                </span>
-                                <span class="total px-0">
-                                    <p class="my-0">Não gostam</p>
-                                    <span class="spercent"><strong>{{negative(list)}} %</strong></span>
-                                </span>
+            <div v-for="(list , i ) of jsonData" class="bg-color">
+                <div class="content-percent position-relative px-4 py-2">
+                    <div class="row parent" @mouseover="mOver()" >
+                        <div class="col-md-3">
+                            <img :src="list.picture" class="circle-img">
+                            <span class="order-number">{{i}}</span>
+                        </div>
+                        <div class="col-md-9 adjust-itens">
+                            <span class="title">{{list.name}}</span><br>
+                            <span class="description">{{list.description}}</span>
+                        </div>
+                        <div class="image-shape" id="image-shape">
+                            <div class="modal-percent">
+                                <div class="row text-center">
+                                    <div class="col-md-6 pr-0">
+                                        <p class="people-like my-0">GOSTAM</p>
+                                        <span class="total-percent">{{positive(list)}} %</span>
+                                    </div>
+                                    <div class="col-md-6 pl-0">
+                                        <p class="people-like my-0">NÃO GOSTAM</p>
+                                        <span class="total-percent">{{negative(list)}} %</span>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -90,9 +94,9 @@
                 pos = parseFloat(pos).toFixed(0);
                 return pos;
             },
-            hoverFunc(){
+            mOver() {
 
-            }
+            },
         },
     })
     new Vue({
