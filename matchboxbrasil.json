@@ -15,8 +15,8 @@
             "name": "Isabella Esther Carolina da Mata",
             "description": "Marketing",
             "picture": "./assets/images/avatar2.png",
-            "positive": 23249923,
-            "negative": 39587707
+            "positive": 91638022,
+            "negative": 19587707
         },
         {
             "__id": "70580002438b08c63286d08b7c43fb4c", 
@@ -31,15 +31,15 @@
             "name": "Emilly Olivia das Neves",
             "description": "Comunication",
             "picture": "./assets/images/avatar4.png",
-            "positive": null,
-            "negative": 32
+            "positive": 99089056,
+            "negative": 19089056
         },
         {
             "__id": "c97686edbeb8df774a567e9884f4d490", 
             "name": "Kevin Ruan Cauê Corte Real",
             "description": "Data Scientist",
             "picture": "./assets/images/avatar5.png",
-            "positive": 69274684,
+            "positive": 9274684,
             "negative": 9446548
         }
     ]

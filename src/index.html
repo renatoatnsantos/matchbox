@@ -32,7 +32,7 @@
                     <div class="row parent" @mouseover="mOver()" >
                         <div class="col-md-3">
                             <img :src="list.picture" class="circle-img">
-                            <span class="order-number">{{i}}</span>
+                            <span class="order-number">{{i + 1}}</span>
                         </div>
                         <div class="col-md-9 adjust-itens">
                             <span class="title">{{list.name}}</span><br>
@@ -78,7 +78,11 @@
         methods : {
             requestJson(){
               let data = axios.get('http://localhost:3000/json')
-                  .then(resp => this.jsonData = resp.data.data)
+                  .then(resp => resp.data.data)
+                  .then(resp => resp.sort(function(a, b) {
+                      return a.positive - b.positive;
+                  }))
+                  .then(resp => this.jsonData = resp.reverse())
             },
             positive(total){
                 let pos = total.positive + total.negative;
